@@ -1,0 +1,63 @@
+name: Nouvelle fonctionnalité
+description: Demandez une nouvelle fonctionnalité
+title: "[FEATURE]: "
+labels: ["Feature"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ce formulaire va vous aider à décrire la fonctionnalité que vous souhaitez.
+        Il aidera l'équipe à comprendre votre besoin.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Décrivez la fonctionnalité que vous souhaitez
+      description: Fournissez-nous une description claire et concise de la fonctionnalité ou de l'amélioration.
+    validations:
+      required: true
+      
+  - type: textarea
+    id: related-to-problem
+    attributes:
+      label: Est-ce que votre fonctionnalité est liée à un problème ? Décrivez-le.
+      description: Une description courte du problème.
+    validations:
+      required: false
+      
+  - type: textarea
+    id: solution
+    attributes:
+      label: Décrivez la solution que vous aimeriez
+      description: Si vous avez une solution spécifique ou une approche particulière, partagez-la.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Contexte additionel
+      description: Ajoutez du contexte ou des captures d'écran à propos de la fonctionnalité ici.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Toutes les cases devraient être cochées
+      options:
+        - label: J'ai cherché et il n'existe pas d'issue relative à cette demande de fonctionnalité.
+        - label: J'ai vérifié la documentation du projet pour trouver des informatiosn pertinentes.
+        - label: J'ai discuté de cette fonctionnalité avec l'équipe.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Informations additionelles
+      description: Ajoutez toute autre information ou détail que vous jugez pertinents pour votre fonctionnalité.
+    validations:
+      required: false
