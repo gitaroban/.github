@@ -14,14 +14,14 @@ body:
     id: description
     attributes:
       label: Décrivez la fonctionnalité que vous souhaitez
-      description: Fournissez nous une description claire et concise de la fonctionnalité ou de l'amélioration.
+      description: Fournissez-nous une description claire et concise de la fonctionnalité ou de l'amélioration.
     validations:
       required: true
       
   - type: textarea
     id: related-to-problem
     attributes:
-      label: Est ce que votre fonctionnalité est liée à un problème ? Décrivez le
+      label: Est-ce que votre fonctionnalité est liée à un problème ? Décrivez-le.
       description: Une description courte du problème.
     validations:
       required: false
@@ -30,7 +30,7 @@ body:
     id: solution
     attributes:
       label: Décrivez la solution que vous aimeriez
-      description: Si vous avez une solution spécifique ou une approche particulière, partagez la.
+      description: Si vous avez une solution spécifique ou une approche particulière, partagez-la.
     validations:
       required: true
 
@@ -58,6 +58,6 @@ body:
     id: additional-information
     attributes:
       label: Informations additionelles
-      description: Ajoutez toute autre information ou détails que vous jugez pertinents pour votre fonctionnalité.
+      description: Ajoutez toute autre information ou détail que vous jugez pertinents pour votre fonctionnalité.
     validations:
       required: false
